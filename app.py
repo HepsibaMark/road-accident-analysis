@@ -9,7 +9,6 @@ st.title("🚗 Road Accident Severity Predictor")
 
 @st.cache_resource
 def train_model():
-    st.info("Training model... please wait!")
     np.random.seed(42)
     n = 50000
     X = pd.DataFrame({
